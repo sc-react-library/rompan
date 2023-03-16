@@ -1,11 +1,10 @@
 import React from 'react';
-// import App from "./App.js";
-export default function M(){
-  
-    return (
-      <div>
-        {/* <App /> */}
-        P
-      </div>
-    );
-  };
+import { Pull } from './Pull';
+export default function M() {
+  return (
+    <div>
+      P <Pull />
+    </div>
+  );
+};
+export { Pull };

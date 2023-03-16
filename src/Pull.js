@@ -1,8 +1,8 @@
 import React from 'react';
-export const App = () => {
+export const Pull = () => {
     return (
         <div>
-            PUll
+            I am amazed its working....
         </div>
     )
 }
